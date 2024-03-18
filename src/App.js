@@ -6,7 +6,7 @@ import AddBook from "./components/AddBook";
 
 //Apolo Client set up
 const client = new ApolloClient({
-  uri: "https://books-server-vercel-six.vercel.app",
+  uri: "https://books-server-vercel-six.vercel.app/graphql",
   cache: new InMemoryCache(),
 });
 
